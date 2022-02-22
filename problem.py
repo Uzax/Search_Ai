@@ -146,9 +146,7 @@ class GridProblem(Problem):
         return state
 
     def action_cost(self, state1, action, state2):
-        actions = ['up' , 'down' , 'right' , 'left']
-        if action in actions :
-            return 1
+        return 1
 
     def is_goal(self, state):
 
